@@ -4,13 +4,19 @@ A curated set of reusable skills for consistent guidance across AI coding agents
 
 ## Install
 
-Run this in a target repository:
+Install all ten skills to all detected agents in a target repository:
 
 ```sh
-npx skills add markfoster314/agent-skills
+npx skills add markfoster314/agent-skills --all
 ```
 
-Because this repository is private, the machine running the command needs GitHub access to it. Follow the CLI prompts to select the skills and agent targets.
+For a machine-wide install instead of a project-local install, use:
+
+```sh
+npx skills add markfoster314/agent-skills --all --global
+```
+
+Because this repository is private, the machine running the command needs GitHub access to it.
 
 ## Included skills
 
